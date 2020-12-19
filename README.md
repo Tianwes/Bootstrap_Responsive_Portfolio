@@ -22,3 +22,4 @@ added proper links for 3 html pages and added "active(link) to each correspondin
 #portfolio
 -made rows for portfolio, and cards for images
 
+<!-- run each html doc through html checker -->

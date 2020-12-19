@@ -2,14 +2,47 @@ body{
     background-image:url("https://images.pexels.com/photos/2395249/pexels-photo-2395249.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260") ;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment:fixed;
 }
 
 #main-container{
     background-color: #fff;
+    margin:0%, 30%;
 }
 
+.float-left{
+    float: left;
+    width: 30%;
+    margin:1em;
+}
 
+.footer{
+    text-align: center;
+    background-color:#E3C4C9;
+    padding: 10px;
+    border-top: #E6A3AD solid;
+    color: #63273E;
+}
+ 
+/* Extra small devices (phones, 576px and down) */
+/* @media only screen and (max-width: 576) {
+    .float-left{
+        width:80%;
+    } */
+} 
+/*
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 576pxpx) {...} */
 
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {...} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {...} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...} */
+ 
 
 
 /* "Tiffany Weaver Logo" */
