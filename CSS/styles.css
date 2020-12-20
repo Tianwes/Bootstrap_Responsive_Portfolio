@@ -1,3 +1,4 @@
+/* ---------- All ---------- */
 body{
     background-image:url("https://images.pexels.com/photos/2395249/pexels-photo-2395249.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260") ;
     background-repeat: no-repeat;
@@ -5,25 +6,24 @@ body{
     background-attachment:fixed;
 }
 
+/* All - Nav bar and H1's */
 header, h1{
     font-family: 'Dosis', sans-serif; 
 }
 
-#main-container{
+/* All -Containers */
+.container{
     background-color: #fff;
-    margin:0%, 30%;
+    width: fit-content;
+    padding-right: 45px;
 }
 
-.float-left{
-    float: left;
-    width: 30%;
-    margin:1em;
-}
+/* All -Paragraphs */
 p{
-    margin-top: 15px;
     font-family: 'Raleway', sans-serif;
 }
 
+/* All - footers */
 .footer{
     text-align: center;
     background-color:#E3C4C9;
@@ -32,53 +32,41 @@ p{
     color: #63273E;
     font-family: 'Dosis', sans-serif;
 }
+
+/* ----------  About Me Document  ---------- */
+/* About Me image */
+.float-left{
+    float: left;
+    width: 30%;
+    margin:1em;
+}
+
+/* About Me Paragraph */
+.about-me-paragraph{
+    margin-top: 15px;
+}
+
+/* ----------  My Portfolio Document  ---------- */
+/* Portfolio Cards */
+.card{
+    margin-bottom: 25px;
+}
+
+/* ----------  Contact Me Document  ---------- */
+/* Contact container */
+#contact-container{
+    padding-bottom: 25px;
+    width: 70%;
+}
+
+/* Contact form */
+.form-group{
+    margin-bottom: 20px;
+}
+
  
 /* font-family: 'Dosis', sans-serif;
 font-family: 'Raleway', sans-serif;
  */
 
 
-/* Extra small devices (phones, 576px and down) */
-/* @media only screen and (max-width: 576) {
-    .float-left{
-        width:80%;
-    } */
-} 
-/*
-/* Small devices (portrait tablets and large phones, 600px and up) */
-/* @media only screen and (min-width: 576pxpx) {...} */
-
-/* Medium devices (landscape tablets, 768px and up) */
-/* @media only screen and (min-width: 768px) {...} */
-
-/* Large devices (laptops/desktops, 992px and up) */
-/* @media only screen and (min-width: 992px) {...} */
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-/* @media only screen and (min-width: 1200px) {...} */
- 
-
-
-/* "Tiffany Weaver Logo" */
-
-
-/* // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-// X-Large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... } */
-
-/* ***** add padding around .about-me ***** */
-
-
-/* @media (min-width: 992px)
-.navbar-expand-lg .navbar-collapse {
-    display: flex!important;
-    margin-left: 92px;
-}  */ 
