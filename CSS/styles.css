@@ -15,19 +15,18 @@ header, h1{
 .container{
     background-color: #fff;
     width: fit-content;
-    padding-right: 45px;
 }
 
 /* All -Paragraphs */
 p{
     font-family: 'Raleway', sans-serif;
+    text-indent: 30px;
 }
 
 /* All - footers */
 .footer{
     text-align: center;
     background-color:#E3C4C9;
-    padding: 10px;
     border-top: #E6A3AD solid;
     color: #63273E;
     font-family: 'Dosis', sans-serif;
@@ -38,35 +37,9 @@ p{
 .float-left{
     float: left;
     width: 30%;
-    margin:1em;
 }
-
-/* About Me Paragraph */
-.about-me-paragraph{
-    margin-top: 15px;
-}
-
-/* ----------  My Portfolio Document  ---------- */
-/* Portfolio Cards */
-.card{
-    margin-bottom: 25px;
-}
-
-/* ----------  Contact Me Document  ---------- */
-/* Contact container */
-#contact-container{
-    padding-bottom: 25px;
-    width: 70%;
-}
-
-/* Contact form */
-.form-group{
-    margin-bottom: 20px;
-}
-
- 
-/* font-family: 'Dosis', sans-serif;
-font-family: 'Raleway', sans-serif;
+Fonts Used
+/*Headings   -  font-family: 'Dosis', sans-serif;
+  Paragraphs -  font-family: 'Raleway', sans-serif;
  */
-
 
