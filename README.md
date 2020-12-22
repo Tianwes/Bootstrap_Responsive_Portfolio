@@ -1,25 +1,32 @@
 # Bootstrap_Responsive_Portfolio
 A responsive portfolio about me
+---
 
-1. added nav code and named links - added to index,contact, portfolio htmls. Links NOT functional yet
-2. 
+My goal was to create a responsive, personal portfolio web page: a page that is visually pleasing on various screen sizes.
 
-<!-- ADD ALL HTML FILES TO ONE CSS?! -->
+As screen sizes differ across devices, I needed a layout that would remain easily readable wether your on a desktop or your mobile phone.
 
-fix col for sm md lg
+##Each page has a
+-functioning, responsive navigation bar and navigation links
+-responsive div containers
+-a sticky footer
 
-add padding around .about-me container so background shows
+##index.html
+-the image shrinks and text wraps the image and shrinks as the screen size does.
 
-used ps-4 on About Me 
-ps-4 adds padding on left
+##contact.html
+-the form shrinks and grows as screen size does
 
-p=padding
+##portfolio.html
+-responsive cards 
 
-added sticky footer - nedd to center and giv bg-color
+#Screenshots
+![2020-12-21 (4)](https://user-images.githubusercontent.com/72744783/102846145-3de23380-43dd-11eb-8925-24018be56b7b.png)
 
-added proper links for 3 html pages and added "active(link) to each corresponding/appropriate nav-link page
+![2020-12-21 (5)](https://user-images.githubusercontent.com/72744783/102846155-420e5100-43dd-11eb-8770-8dbe4ef2de91.png)
 
-#portfolio
--made rows for portfolio, and cards for images
+![2020-12-21 (6)](https://user-images.githubusercontent.com/72744783/102846159-45094180-43dd-11eb-8cfb-03881a0d155f.png)
 
-<!-- run each html doc through html checker -->
+
+#Links
+

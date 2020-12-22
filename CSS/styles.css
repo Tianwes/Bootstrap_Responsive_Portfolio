@@ -38,7 +38,28 @@ p{
     float: left;
     width: 30%;
 }
-Fonts Used
+
+/* ----------   Contact me page  ---------- */
+.fa {
+    padding: 10px;
+    font-size: 25px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+
+  /* submit button  */
+  .button-bg{
+      background-color:  #63273E;
+      border:  #63273E;
+  }
+
+/* Fonts Used */
 /*Headings   -  font-family: 'Dosis', sans-serif;
   Paragraphs -  font-family: 'Raleway', sans-serif;
  */
